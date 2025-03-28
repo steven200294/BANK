@@ -1,16 +1,71 @@
-# BANK - React + Vite Application
+# Application de Gestion des Dépenses
 
-This is a banking application built with React and Vite.
+Une application web moderne pour gérer vos dépenses personnelles, construite avec React et Vite.
 
-## Project Setup
+## 🚀 Fonctionnalités
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Interface utilisateur moderne et responsive
+- Gestion des dépenses avec description, prix et catégorie
+- Stockage local des données
+- Navigation entre les pages
+- Affichage des dépenses en temps réel
 
-Currently, two official plugins are available:
+## 🛠️ Technologies Utilisées
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React.js
+- Vite
+- React Router DOM
+- Tailwind CSS
+- Boxicons
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clonez le repository :
+```bash
+git clone https://github.com/steven200294/BANK.git
+```
+
+2. Installez les dépendances :
+```bash
+cd BANK
+npm install
+```
+
+3. Lancez l'application en mode développement :
+```bash
+npm run dev
+```
+
+## 🔧 Configuration
+
+L'application utilise les variables d'environnement suivantes :
+- `VITE_API_URL` : URL de l'API (si nécessaire)
+
+## 📱 Pages
+
+- **Page d'accueil** : Formulaire d'ajout de dépenses
+- **Page Dépenses** : Affichage des dépenses enregistrées
+
+## 🤝 Contribution
+
+Les contributions sont les bienvenues ! N'hésitez pas à :
+1. Fork le projet
+2. Créer une branche pour votre fonctionnalité
+3. Commiter vos changements
+4. Pousser vers la branche
+5. Ouvrir une Pull Request
+
+## 📄 Licence
+
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+
+## 👥 Auteurs
+
+- Steven200294
+
+## 🙏 Remerciements
+
+- React.js
+- Vite
+- Tailwind CSS
+- Boxicons
